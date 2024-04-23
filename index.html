@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - avançado</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <style>
+        .carousel img {
+            height: 18em;
+        }
+
+        .card {
+            height: 95%;
+        }
+
+        .card-body p {
+            width: 100%;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="/images/MK2.jpeg" />
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="/images/MK1.1.jpg" />
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="/images/MK-LOGO.jpg" />
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button" >
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-4 ">
+                <div class="card text-bg-dark mb-3 mt-3">
+                    <div class="card-header">
+                        Mortal Kombat X
+                    </div>
+                    <img src="/images/MK1.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">SCORPION</h4>
+                        <p class="card-text">
+                            Scorpion é o espectro de um ninja que busca vingar a própria morte, a destruição de seu clã e a morte de sua família, fazendo dele um anti-herói, seu papel principal durante toda a série até Mortal Kombat X.
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 ">
+                <div class="card text-bg-dark mb-3 mt-3">
+                    <div class="card-header">
+                        Mortal Kombat X
+                    </div>
+                    <img src="/images/SUB-ZERO.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">SUB ZERO</h4>
+                        <p class="card-text">
+                            Sub-Zero, também conhecido como Kuai Liang ( e anteriormente conhecido como Tundra), é um Lin Kuei, Ele é o irmão mais novo de Noob que era o original Sub-Zero no primeiro jogo Mortal Kombat.
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 ">
+                <div class="card text-bg-dark mb-3 mt-3">
+                    <div class="card-header">
+                        Mortal Kombat 11
+                    </div>
+                    <img src="/images/Rain.webp" />
+                    <div class="card-body">
+                        <h4 class="card-title">RAIN</h4>
+                        <p class="card-text">
+                            Um refugiado órfãio pela conquista de Shao Kah Rain cresceu sob a proteção Edeniana. Um lutador excepcional que como sua reputação cresceu, assim como a sua arrogância. 
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 ">
+                <div class="card text-bg-dark mb-3 mt-3">
+                    <div class="card-header">
+                        Mortal Kombat 9
+                    </div>
+                    <img src="/images/SMOKE.jpeg" />
+                    <div class="card-body">
+                        <h4 class="card-title">SMOKE</h4>
+                        <p class="card-text">
+                            Smoke é um assassino ninja que foi transformada a partir de um ser humano em um ciborgue. Ele fez sua estréia em Mortal Kombat II como um personagem jogável secreto em forma humana. 
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 ">
+                <div class="card text-bg-dark mb-3 mt-3">
+                    <div class="card-header">
+                        Mortal Kombat 9
+                    </div>
+                    <img src="/images/NOOB.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">NOOB SAIBOT</h4>
+                        <p class="card-text">
+                            Noob Saibot é um personagem da franquia de jogos Mortal Kombat. Uma vez conhecido como Bi-Han seu verdadeiro nome. Foi um assassino ninja do clã Lin Kuei e o Sub-Zero original.
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 ">
+                <div class="card text-bg-dark mb-3 mt-3">
+                    <div class="card-header">
+                        Mortal Kombat X
+                    </div>
+                    <img src="/images/ERMAC.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">ERMAC</h4>
+                        <p class="card-text">
+                            O enigmático Ermac é um ser composto das almas. Durante muitos anos ele serviu ao lado de Shao Kahn, mas desde então se libertou da influência do imperador. Ele agora controla seu próprio destino..
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
